@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <title>Document</title>
+</head>
+<body>
+    <button class="openback" onclick="document.location='file:index.html'"href="#index">Back to home</button>
+
+
+
+<div class="basas">
+
+   <div>
+    <h1>Enter dec DEC</h1>
+    </div>
+  
+    <br>
+    <br>
+
+   <div >
+    BIN TOTAL: <input class="output" type="text" id="t2">
+    </div>
+
+    <div  >
+     OCT TOTAL: <input class="output" type="text" id="t3">
+     </div>
+
+     <div  >
+     HEX TOTAL: <input class="output" type="text" id="t4">
+     </div>
+
+</div>
+
+<input  type="number" id="t1" class="line"><br>
+<button class="the"  type="button" onclick="stam()" >convert</button>
+
+
+
+
+
+
+    <style>
+        .basas{
+            font-size: 20px;
+            position: fixed;
+            top: 190px;
+            right: 620px;
+        }
+         body{
+            background-color: aqua;
+        }
+
+        .the{
+            font-size: 20px;
+            position: fixed;
+            top: 420px;
+            right: 720px;
+        }
+
+        .line{
+           font-size: 20px;
+            position: fixed;
+            top: 280px;
+            right: 660px;
+        }
+    
+ .openback{
+   width: 250px;
+   height: 50px;   font-size: 1.5rem;
+   background-image: url(pic/backhomebses.jpg) ;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ .openback:hover{
+   background: rgb(208, 255, 0);
+ }
+
+    </style>
+
+
+
+    <script>
+        function stam(){
+            var a,b;
+            a=parseInt(document.getElementById("t1").value);
+            b=a.toString(2);
+            document.getElementById("t2").value=b;      
+        
+            b=a.toString(8);
+            document.getElementById("t3").value=b;
+
+            b=a.toString(16);
+            document.getElementById("t4").value=b;
+        }
+
+
+     
+    </script>
+    
+</body>
+</html>

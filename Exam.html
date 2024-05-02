@@ -1,0 +1,111 @@
+<html>
+<head>
+<title> 
+</title>
+</head>
+
+<body>
+
+
+
+<button class="openback" onclick="document.location='file:index.html'"href="#home">Back to home</button>
+
+<div class="Exam">
+    <h1>Dugma Check</h1>
+    <button onclick="Question()">New Question</button>
+    <button onclick="Myanswer()">Answer</button>
+
+    <h1>Question : <span id="Myquestion"></span></h1>
+    <h1>Ans 1 : <span id="Ans1"></span></h1>
+    <h1>Ans 2 : <span id="Ans2"></span></h1>
+    <h1>Ans 3 : <span id="Ans3"></span></h1>
+    <h1>Ans 4 : <span id="Ans4"></span></h1>
+    
+</div>
+<div class="inttot">
+    <input type="number" id="mynumber" min="1" max="4" value="1" step="1">
+</div>
+
+
+<script>
+
+  const arr=[ ["8/2=?","8","5","-2","4",4],
+            ["12*12=?","144","155","164","1000" , 1],
+            ["best collage? ","sami","bct" ,"tcb","sapir",3] ,
+            ["العاب؟","collage","games","home","lecturer",2],
+            ["1111 in bin?" ,"7","f","-f","-7",2]  ];
+let num=0;
+let correct;
+let count=0;
+function Question()
+{
+  if(num<=4)
+  {
+  document.getElementById("Myquestion").innerHTML=arr[num][0];
+  document.getElementById("Ans1").innerHTML=arr[num][1];
+  document.getElementById("Ans2").innerHTML=arr[num][2];
+  document.getElementById("Ans3").innerHTML=arr[num][3];
+  document.getElementById("Ans4").innerHTML=arr[num][4];
+  correct=arr[num][5];
+  
+  num=parseInt(num)+1;
+}
+  else
+  {
+    alert("End Test !!!");
+    alert("Grade : " + count*20);
+  }
+  
+}
+
+function Myanswer()
+{
+  let myans=document.getElementById("mynumber").value;
+  if(correct==myans)
+   count++;
+  
+}
+
+</script>
+
+
+
+
+<style>
+    .openback{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    background-image: url(pic/backhomegames.jpg) ;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .openback:hover{
+    background: rgb(61, 31, 109);
+    transform: scale(0.6);
+  }
+
+  .Exam{
+   /* margin-top: 80px;
+   left: 50px; */
+
+   position:fixed;
+    width: 300px;
+    right:550px;
+    background: rgb(255, 255, 255);
+    margin-top: 150px;
+  }
+  
+  .inttot{
+    position:fixed;
+    width: 250px;
+    right:400px;
+    margin-top: 230px;
+  }
+</style>
+
+
+</body></html>

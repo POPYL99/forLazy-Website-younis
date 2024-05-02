@@ -1,0 +1,95 @@
+
+body {
+    background-image: url(pic/bghome1.jpg);
+    width: 100%;
+    margin: 0;
+    background-repeat:repeat;   
+  } 
+                        
+                        
+                        
+                        /* الشريط الذي في الاعلى */
+
+
+
+.line {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+  }
+
+.line li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.9rem;
+    text-shadow: 2px 2px 1px black;
+  } 
+
+  
+   
+
+
+                      /* اعلانات  */
+
+   .adv1{
+    width: 280px;
+    height: 280px;
+    margin-left: 1200px;
+    margin-bottom: 1200px;
+    justify-content: end;  
+    position: fixed;
+    top: 100px;
+    border-radius: 20px;
+
+  }
+
+  .adv2{
+    width: 280px;
+    height: 290px;
+    margin-left: 1200px;
+    margin-bottom: 1200px;
+    justify-content: end;  
+    position: fixed;
+    top:400px;
+    border-radius: 20px;
+  }
+
+  .adv1r{
+    position: fixed;
+   right: 120px;
+   color: aqua;
+   margin-top: -10px;
+   font-size: 25px;
+  }
+
+  .newsline{
+    position: fixed;
+    top: 650px;
+    font-size:30px;
+    }
+
+.advmus{
+  width: 280px;
+  height: 280px;
+  margin-left: 10px;
+  margin-bottom: 1200px;
+  position: fixed;
+}
+
+
+.advgames{
+  
+  width: 280px;
+  height: 220px;
+  margin-left: 10px;
+  margin-bottom: 1200px;
+  margin-top: 320px;
+  position: fixed;
+
+}
+
+  
+  
+
+
+  

@@ -1,0 +1,210 @@
+  
+ body {
+    background-image: url(pic/bgsongs.jpg);
+    /* width: 100%;
+    height: 100%; */
+    background-repeat:repeat;
+    font-size: .77px;
+    background-size: 5058;
+    padding:10px ; 
+  } 
+  
+
+  .openback{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color: rgb(0, 255, 13);
+    background-image: url(pic/backhomesong.png) ;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+  
+  .openback:hover{
+    background: rgb(61, 31, 109);
+    transform: scale(0.6);
+  }
+
+
+   .pic1{
+    position: absolute;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+  
+  .pic1 .imgbox1{
+    position:relative ;
+    width: 300px;              
+    height: 250px;
+  }
+  
+  .pic1 .imgbox1 img{
+    position:absolute ;
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .pic1 audio{
+    width:100% ;
+    outline: none;
+    box-shadow: inset;
+  } 
+
+
+
+
+  .pic2{
+    position: absolute;
+    width: 300px;
+    right:670px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+  
+  .pic2 .imgbox2{
+    position:relative ;
+    width: 300px;              
+    height: 250px;
+  }
+  
+  .pic2 .imgbox2 img{
+    position:absolute ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .pic2 audio.pic2{
+    width:100% ;
+    outline: none;
+    box-shadow: inset;
+  }
+
+
+
+
+
+  .pic3{
+    position: absolute;
+    width: 300px;
+    right:100px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+  
+  .pic3 .imgbox3{
+    position:relative ;
+    width: 300px;              
+    height: 250px;
+  }
+  
+  .pic3 .imgbox3 img{
+    position:absolute ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .pic3 audio.pic3{
+    width:100% ;
+    outline: none;
+    box-shadow: inset;
+  }
+
+
+
+  .pic4{
+    position: absolute;
+    width: 300px;
+    right:100px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 350px;
+  }
+  
+  .pic4 .imgbox4{
+    position:relative ;
+    width: 300px;              
+    height: 250px;
+  }
+  
+  .pic4 .imgbox4 img{
+    position:-webkit-sticky ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .pic4 audio.pic4{
+    width:100% ;
+    outline: none;
+    box-shadow: inset;
+  }
+
+
+
+  .pic5{
+    position: absolute;
+    width: 300px;
+    right:100px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 350px;
+    right: 670px;
+  }
+  
+  .pic5 .imgbox5{
+    position:relative ;
+    width: 300px;              
+    height: 250px;
+  }
+  
+  .pic5 .imgbox5 img{
+    position:-webkit-sticky ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .pic5 audio.pic5{
+    width:100% ;
+    outline: none;
+    box-shadow: inset;
+  }
+
+  
+  .pic6{
+    position: absolute;
+    width: 300px;
+    right:100px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 350px;
+    right: 1220px;
+  }
+  
+  .pic6 .imgbox6{
+    position:relative ;
+    width: 300px;              
+    height: 250px;
+  }
+  
+  .pic6 .imgbox6 img{
+    position:-webkit-sticky ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .pic6 audio.pic6{
+    width:100% ;
+    outline: none;
+    box-shadow: inset;
+  }
+
